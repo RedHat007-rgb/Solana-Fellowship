@@ -1,9 +1,10 @@
-
-//Check the number if even and return  if even
 fn main() {  
     println!("{}",is_even(5));  
     println!("The fib number is {}",fib(50));
+    println!("the length of a string is {}", get_string_length("preetham reddy"));
 }
+
+//Check the number if even and return  if even
 fn is_even(num:i32)-> bool{
     if num%2==0 {
        return true;
@@ -30,4 +31,16 @@ fn fib(num:u64)->u64{
         first_number=temp;
     }
     return second_number;
+}
+
+
+// Take string as an input and return its length
+
+fn get_string_length(input:&str)->i32{
+    let mut temp=0;
+    for _ in 0.. input.len(){ 
+        temp=temp+1;
+    }
+    return temp;
+    
 }
