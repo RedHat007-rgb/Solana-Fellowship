@@ -1,0 +1,32 @@
+# === Rust ===
+/target/
+**/*.rs.bk
+**/*.swp
+**/*.swo
+**/*.tmp
+
+# === Cargo ===
+/Cargo.lock
+/.cargo/
+
+# === IDEs and Editors ===
+# VSCode
+.vscode/
+/*.code-workspace
+
+# JetBrains (CLion, IntelliJ, etc.)
+.idea/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs and temp ===
+*.log
+*.tmp
+*.bak
+
+# === Node (if applicable) ===
+node_modules/
+dist/
+
