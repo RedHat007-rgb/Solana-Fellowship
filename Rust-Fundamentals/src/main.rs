@@ -2,6 +2,23 @@ fn main() {
     println!("{}",is_even(5));  
     println!("The fib number is {}",fib(50));
     println!("the length of a string is {}", get_string_length("preetham reddy"));
+
+    //Understanding and Implementing Structs 
+    //Structs let us group the information an similar type together 
+
+    struct User{
+        username:String,
+        password:String,
+        age:u32
+    }
+
+    let user1=User{
+        username:String::from("Reddy"),
+        password:String::from("1234"),
+        age:25,
+    };
+
+    println!("Name of the user: {}\nPassword is {} \nAge is {}",user1.username,user1.password,user1.age);
 }
 
 //Check the number if even and return  if even
@@ -44,3 +61,12 @@ fn get_string_length(input:&str)->i32{
     return temp;
     
 }
+
+
+
+
+
+
+
+
+
