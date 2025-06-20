@@ -20,8 +20,24 @@ fn main() {
     let trimmed2 = input2.trim();
     let num2: f32 = trimmed2.parse().unwrap();
 
-    
     let mut ans = 0.0;
+
+    struct User_profile{
+        username:String,
+        sol:f64,
+    }
+//    * Create a Calculation struct to hold the details of each 
+// calculation, including the operation type (as a string), two numbers (f64), and the result (f64).
+    struct Calculation{
+        operation_type:String,
+        number_1:f32,
+        number2:f32,
+        result:f32,
+    }
+
+    let mut transaction:Vec<Calculation>=Vec::new();
+
+
 
     if operation == "add" {
         ans = add(num1, num2);
