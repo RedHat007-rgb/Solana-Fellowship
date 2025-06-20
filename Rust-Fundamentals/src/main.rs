@@ -27,7 +27,7 @@ fn main() {
 
     struct Square {
         side: u32,
-    };
+    }
 
     impl Square {
         fn area(&self) -> u32 {
@@ -42,7 +42,7 @@ fn main() {
             let new_string = String::from("You have a square in your hand");
             return new_string;
         }
-    };
+    }
 
     let sq1 = Square { side: 90 };
 
