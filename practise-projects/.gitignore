@@ -1,0 +1,23 @@
+# Generated files
+/target/
+
+# Cargo lock file (optional, include if you want to ignore it)
+# Cargo.lock
+
+# Rustfmt and clippy generated files
+*.bak
+*.orig
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.prettierrc
+
+# macOS specific
+.DS_Store
+
+# Optional: Ignore common test and documentation artifacts
+/doc/
+/tests/*.log
