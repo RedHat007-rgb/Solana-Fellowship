@@ -1,0 +1,26 @@
+# === Rust build output ===
+/target/
+!**/src/**/target/
+
+# === Cargo package manager ===
+**/Cargo.lock
+**/Cargo.toml.orig
+
+# === IDEs and editors ===
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*~
+
+# === Logs and temporary files ===
+**/*.log
+**/temp/
+**/tmp/
+**/npm-debug.log*
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === By-products ===
+*.rs.bk
